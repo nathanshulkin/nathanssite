@@ -2,3 +2,14 @@
 <p>
     the time is now <%= Time.now %>
 </p>
+
+
+<%#= render 'partials/homeNavbar' %>
+<div class="jumbotron">
+    <div class="home-video-wrapper">
+        <%= video_tag "blackandpink.mp4", autoplay: true, loop: true, controls: false, muted: true, playsinline: true, class: "home_video" %>
+        <h2 class="home"></h2>
+    </div>
+</div>
+<%#= render 'partials/homeTicker' %>
+

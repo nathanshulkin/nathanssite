@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+  
+  resources :about
+  resources :projects
   root 'welcome#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

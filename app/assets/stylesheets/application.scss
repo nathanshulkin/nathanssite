@@ -112,7 +112,7 @@ h2.home {
     margin-top: 2vh;
     border-radius: .3rem;
     background: rgba(0, 0, 0, 0.53);
-    align-items: center;
+    display: inline-grid;
     width: 69%;
 }
 
@@ -121,6 +121,12 @@ h2.home {
     margin-bottom: 1vh;
     margin-top: 1vh;
     border-radius: .3rem;
+}
+
+.gumbotroner:hover
+{
+    color: #e61b67;
+    margin: 12px;
 }
 
 .tickContainer
